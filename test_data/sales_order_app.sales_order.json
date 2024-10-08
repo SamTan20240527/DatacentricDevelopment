@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "6703b2bc4e440e57a7e88936"
+  },
+  "item_number": "CT-001",
+  "order_quantity": 100,
+  "delivery_date": "2024-11-11"
+},
+{
+  "_id": {
+    "$oid": "6703bc85133540774a142903"
+  },
+  "item_number": "CT-001",
+  "order_quantity": 100,
+  "delivery_date": "2025-01-01"
+},
+{
+  "_id": {
+    "$oid": "6703d15b50bafd7318b5aa63"
+  },
+  "item_number": "KC-004",
+  "order_quantity": 40,
+  "delivery_date": "2025-03-01"
+},
+{
+  "_id": {
+    "$oid": "67049eff01bd85e2cd520419"
+  },
+  "item_number": "CT-005",
+  "order_quantity": 40,
+  "delivery_date": "2025-02-01"
+}]

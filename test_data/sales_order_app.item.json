@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "6703977eda161220077fca32"
+  },
+  "item_number": "MG-001",
+  "description": "Mug, I Love SG",
+  "country_of_origin": "Singapore",
+  "price": 12.2
+},
+{
+  "_id": {
+    "$oid": "6703977eda161220077fca33"
+  },
+  "item_number": "MG-002",
+  "description": "Mug, Merlion",
+  "country_of_origin": "Singapore",
+  "price": 12.2
+},
+{
+  "_id": {
+    "$oid": "6703977eda161220077fca34"
+  },
+  "item_number": "CT-001",
+  "description": "Coaster, Orchid Flower",
+  "country_of_origin": "China",
+  "price": 1.2
+},
+{
+  "_id": {
+    "$oid": "6703977eda161220077fca35"
+  },
+  "item_number": "KC-001",
+  "description": "Keychain, Super Trees",
+  "country_of_origin": "Thailand",
+  "price": 3.5
+},
+{
+  "_id": {
+    "$oid": "6703977eda161220077fca36"
+  },
+  "item_number": "KC-002",
+  "description": "Keychain, Marina Bay Sands",
+  "country_of_origin": "Thailand",
+  "price": 3.5
+},
+{
+  "_id": {
+    "$oid": "6703a8ba498ce58c4749535c"
+  },
+  "item_number": "CT-002",
+  "description": "Coaster, Singapore Zoo",
+  "country_of_origin": "China",
+  "price": 5.5
+},
+{
+  "_id": {
+    "$oid": "6703d00f133540774a142904"
+  },
+  "item_number": "KC-003",
+  "description": "Keychain, Chinatown ",
+  "country_of_origin": "China",
+  "price": 2
+},
+{
+  "_id": {
+    "$oid": "6703d0662b8f02ef5f87301e"
+  },
+  "item_number": "KC-004",
+  "description": "Keychain, Little India ",
+  "country_of_origin": "China",
+  "price": 2
+},
+{
+  "_id": {
+    "$oid": "67049e7501bd85e2cd520418"
+  },
+  "item_number": "CT-005",
+  "description": "Coaster, Changi Airport",
+  "country_of_origin": "China",
+  "price": 5.5
+}]
