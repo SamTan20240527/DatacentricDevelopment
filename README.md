@@ -2,13 +2,17 @@
 Module 6: Datacentric Development \
 Submitted by: Tan Chee Meng (Sam Tan) \
 Date: 09-Oct-2024 \
-GitHub link: https://github.com/SamTan20240527/DatacentricDevelopment
+GitHub link: https://github.com/SamTan20240527/DatacentricDevelopment/
 
 # Introduction
 A souvenirs distributor needs a sales order system to keep track of products and sales orders
-- First collection = item: item_number, description, country_of_origin, price
-- Second collection = sales_order: orderId, item_number, order_quantity, delivery_date (other data such as customer, address, etc. are skipped to reduce data-entry during testing)
-- Relationship = sales_order.item_number is foreign key to item.item_number. In other words, item_number must exist in item
+- Database: sales_order_app
+  - Primary collection: item
+    - Document fields: item_number, description, country_of_origin, price 
+  - Secondary collection: sales_order
+    - Document fields: _id, item_number, order_quantity, delivery_date \
+    (Other data such as customer, address, etc. are skipped to reduce data-entry during testing)
+  - Relationship: <sales_order.item_number> is the foreign key to <item.item_number>
 
 # RESTful API testing in VS Code extension Thunder Client
 ## Test server: http://localhost:3000/
@@ -33,7 +37,7 @@ A souvenirs distributor needs a sales order system to keep track of products and
 ![PUT sales_order failed](test_data/PUTsales_orderFailedItemInvalid.png)
 ## DELETE sales order: http://localhost:3000/sales_order/<_id>
 ![DELETE sales_order](test_data/DELETEsales_order.png)
-##
+-end-
 
 
 
