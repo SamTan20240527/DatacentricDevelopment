@@ -13,6 +13,8 @@ A souvenirs distributor needs a sales order system to keep track of products and
     - Document fields: _id, item_number, order_quantity, delivery_date \
     (Other data such as customer, address, etc. are skipped to reduce data-entry during testing)
   - Relationship: <sales_order.item_number> is the foreign key to <item.item_number>
+  - User management collection: users
+    - Document fields: email, password 
 
 # RESTful API testing in VS Code extension Thunder Client
 ## Test server: http://localhost:3000/
